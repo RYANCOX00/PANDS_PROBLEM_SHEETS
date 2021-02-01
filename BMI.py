@@ -2,19 +2,21 @@
 # Author:  Ryan Cox
 
 
-# Greeting the user
+# Reading in the users name and greeting the user 
 name = input ("Please enter your name: ")
 print("Hello, " + name)
 
 
-# Read in weight (kg) and height(cm), and converting the input as int variables
+# Reading in weight (kg) and height(cm) as variables, and converting these variables to ints
 weight = int(input ("Enter you weight in kilograms: "))
 height = int(input ("Enter your height in centimetres: "))
 
 
-# Calculating the users BMI
+# Calculating the users BMI and saving under BMI variable.
+# Converting to an int incase we wish to work with this number later.
 BMI = int(weight/((height/100)**2))
 
 
-# Telling the user their BMI
-print ("Hi " + name + ". \tYour BMI is {}!".format(BMI))
+# Adding the variables to the output using .format. 
+# Telling the user their BMI. 
+print (name + ", your BMI is {}.".format(BMI))
