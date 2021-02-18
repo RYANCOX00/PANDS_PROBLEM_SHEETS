@@ -58,3 +58,18 @@ Line 21 also takes the latest number in 'numbersList'. Using the 'else' function
 Line 24 add the new version of 'number' as defined under line 18 or 21 and adds this as the latest number of 'numbersList'. The loop is repeated until the lastest number of 'numberList' equals to 1. 
 
 Line 28 prints the contents of 'numbersList' once the latest number equals to 1. 
+
+
+
+
+
+Week 5
+The program uses a function obtained online to generate todays date and day of the week.  The day of the week is saved in the form of an integer range from [0:6].  We can then use an if statement to output a string based on the whether the day of the week is less than more greater than a certain threshold.  Integer 4, being Friday will be the upper threshold for weekdays. 
+
+Line 7 initiates "from datetime import date" function.  This was obtained from https://www.programiz.com/python-programming/datetime/current-datetime. 
+
+Line 13 first determines todays date from the date.today() function.  Also obtained from https://www.programiz.com/python-programming/datetime/current-datetime.  It then uses this date to determine what day of the week today is, .weekday(). The day of the week is saved under the variable weekNum as an integer, Monday (0) and Sunday(6). The weekday function was obtained from https://pythontic.com/datetime/datetime/weekday. 
+
+Line 17 uses an if statement. If weekNum is equal to or less than 4 (Monday - Friday), then it is a weekday. 
+
+Line 21 assumes that everything else is a weekend, i.e. 5 & 6. 
