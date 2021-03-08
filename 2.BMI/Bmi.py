@@ -17,4 +17,4 @@ BMI = round(BMI, 2)
 
 # Adding the variables to the output using format. 
 # Telling the user their BMI. 
-print ("BMI is {}.".format(BMI))
+print ("BMI is {}.".format(BMI)) 

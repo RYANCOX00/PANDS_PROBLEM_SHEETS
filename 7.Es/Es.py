@@ -17,4 +17,4 @@ def openFile(): # Creating a function to read in a file.
 fileContents = openFile() # Saving the contents of the file under the "fileContents" variable
 count = fileContents.count("e")     # Count the occurances the character "e" appears in the variable (string). 
                                     # https://www.w3schools.com/python/ref_string_count.asp
-print(count)
+print(count) 

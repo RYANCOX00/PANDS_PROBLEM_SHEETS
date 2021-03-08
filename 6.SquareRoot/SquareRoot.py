@@ -20,4 +20,4 @@ root = round(squareRoot(squared), 1) # Recalling the function and saving the flo
 
 
 # Outputting the squared and square rooted number
-print("The square root of {} is approx. {}.".format(squared,root))
+print("The square root of {} is approx. {}.".format(squared,root)) 

@@ -12,4 +12,4 @@ reverseString = inputString[::-2]
 
 
 # Printing results of reverse string 
-print(reverseString)
+print(reverseString) 
