@@ -18,4 +18,4 @@ if weekNum <= 4:
     print("Yes, unfortunately today is a weekday.")
 
 #Otherwise it is a weekend. 
-else:("It is the weekend, yay!")
+else:("It is the weekend, yay!") 
