@@ -1,19 +1,19 @@
 # Programming and Scripting Weekly Problems <br />
-**## Notes and references for weekly problems**
+## Notes and references for weekly problems
 <br />
 
-**# Task 1 - BMI**<br />
+# Task 1 - BMI <br />
 **File name:** bmi.py<br />
 
-The program reads in the users height and weight and calculates the users BMI.  
+The program reads in the users height and weight and calculates the users BMI.  <br />
 <br />
-Line 6 reads in the users weight in kilograms, coverts it to a float and saves the data as the variable "weight".  
+Line 6 reads in the users weight in kilograms, coverts it to a float and saves the data as the variable "weight".  <br />
 <br />
-Line 7 reads in the users height in centimetres, coverts this data to a float and stores it under the variable "height".  
+Line 7 reads in the users height in centimetres, coverts this data to a float and stores it under the variable "height".  <br />
 <br />
-Line 11 calculates the users BMI using (weight/((height/100)**2)). 
+Line 11 calculates the users BMI using (weight/((height/100)**2)). <br /> 
 <br />
-Line 15 rounds the float to 2 decimal places. 
+Line 15 rounds the float to 2 decimal places. <br />
 <br />
 Finally, line 20 tells the user their BMI. The output formats the float to output along side the string. <br />
 
