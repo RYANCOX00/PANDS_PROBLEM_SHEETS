@@ -218,5 +218,6 @@ Python For Loops, W3Schools, available at: https://www.w3schools.com/python/pyth
 numpy.append, Tutorials Point, available at: https://www.tutorialspoint.com/numpy/numpy_append.htm<br />
 Matplotlib Line, W3Schools, available at: https://www.w3schools.com/python/matplotlib_line.asp<br />
 
-**Plot Task**
+**Plot Task** <br /> 
+
 ![plottedlines](https://user-images.githubusercontent.com/77641344/113726079-d5993280-96eb-11eb-894c-f4cd7897b005.png)
