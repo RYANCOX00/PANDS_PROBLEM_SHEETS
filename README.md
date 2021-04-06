@@ -1,5 +1,5 @@
 # Programming and Scripting Weekly Problems <br />
-The purpose of this repository is for pushing weekly tasks for the Programing and Scripting module at GMIT. <br />
+The purpose of this repository is for pushing weekly tasks for the Programing and Scripting module at GMIT in 2021. <br />
 <br />
 
 ### Notes and references for weekly problems <br />
@@ -175,7 +175,7 @@ Python String count() Method, W3Schools, available at: https://www.w3schools.com
 **File name:** plottask.py <br />
 <br />
 
-**Summary:** # A program that plots 3 different lines on one line plot. Each line has similar parametres however they have a different equations.<br />
+**Summary:** # A program that plots 3 different lines on one line plot. ach line has similar x values however they have a different equation to solve for y value of each line. <br />
 <br />
 Line 7 and line 8 import numpy and matplotlib respectively. <br />
 <br />
