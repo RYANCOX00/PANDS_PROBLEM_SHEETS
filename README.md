@@ -1,43 +1,48 @@
-# PANDS_PROBLEM_SHEETS
-Referneces and notes for weekly problems
+**# Programming and Scripting Weekly Problems**
+**## Notes and references for weekly problems**
+<br />
 
-
-Week 2
-File name: 2.Bmi.py
-
+**# Task 1 - BMI**
+**File name:** bmi.py
+<br />
 The program reads in the users height and weight and calculates the users BMI.  
-
+<br />
 Line 6 reads in the users weight in kilograms, coverts it to a float and saves the data as the variable "weight".  
-
+<br />
 Line 7 reads in the users height in centimetres, coverts this data to a float and stores it under the variable "height".  
-
+<br />
 Line 11 calculates the users BMI using (weight/((height/100)**2)). 
-
+<br />
 Line 15 rounds the float to 2 decimal places. 
-Finally, line 20 tells the user their BMI. 
+<br />
+Finally, line 20 tells the user their BMI. The output formats the float to output along side the string. <br />
 
+**References**<br />
+Python User Input, W3Schools, available at: https://www.w3schools.com/python/python_user_input.asp<br />
+BMI Forumla, Ramsay health, available at: https://www.ramsayhealth.co.uk/weight-loss-surgery/bmi/bmi-formula<br />
+Python round() Function, W3Schools, available at: https://www.w3schools.com/python/ref_func_round.asp<br />
+Python String Formatting, W3Schools, available at: https://www.w3schools.com/python/python_string_formatting.asp<br />
+<br />
+<br />
+<br />
 
-
-
- 
-
-Week 3
-File name: 3.ReverseString.py
+**# Task 2 - Second String**
+**File name:** secondstring.py
 
 This program reads in a string and outputs it to the user in reverse with every second character present.
 
 Line 6 reads in the string from the user using an input function.  This string is saved as the variable "inputString". 
 
-Line 11 is a function to print every second chartacter of inputString in reverse - [::-2]. Essentially stating there is no beginning, no end (i.e. start and end never defined) and step backwards in 2's. The result is stored under the variable "reverseString".  Function[::-2] was obtained from W3Schools, available at https://www.w3schools.com/python/python_howto_reverse_string.asp.
+Line 11 is a function to print every second chartacter of inputString in reverse - [::-2]. Essentially stating there is no beginning, no end (i.e. start and end never defined) and step backwards in 2's. The result is stored under the variable "reverseString".  Function[::-2] was obtained from W3Schools.
 
 Line 15 prints the result of "reverseString". 
 
+**References**
+Python how to reverse string, W3 Schools, available at: https://www.w3schools.com/python/python_howto_reverse_string.asp.
 
 
-
-
-Week 4
-File name: 4.Collatz.py
+**# Task 3**
+**File name:** collatz.py
 
 This program reads in a number from a user and saves it to an empty list. The initial number the user inputs, as the first number in the list, is put through a specific calculation depending on whether it is odd or even. This number is then put through the same calculation.  This calculation, as an if statement, is a statement within a loop.  The latest number in the list is put through this calculation until the latest number in the list equals to 1.
 
@@ -61,7 +66,7 @@ Line 28 prints the contents of 'numbersList' once the latest number equals to 1.
 
 
 Week 5
-File name: 5.Weekday.py
+File name: weekday.py
 
 The program uses a function obtained online to generate todays date and day of the week.  The day of the week is saved in the form of an integer range from [0:6].  We can then use an if statement to output a string based on the whether the day of the week is less than more greater than a certain threshold.  Integer 4, being Friday will be the upper threshold for weekdays. 
 
