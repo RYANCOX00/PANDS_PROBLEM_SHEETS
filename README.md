@@ -1,10 +1,10 @@
-**# Programming and Scripting Weekly Problems**
+# Programming and Scripting Weekly Problems <br />
 **## Notes and references for weekly problems**
 <br />
 
-**# Task 1 - BMI**
-**File name:** bmi.py
-<br />
+**# Task 1 - BMI**<br />
+**File name:** bmi.py<br />
+
 The program reads in the users height and weight and calculates the users BMI.  
 <br />
 Line 6 reads in the users weight in kilograms, coverts it to a float and saves the data as the variable "weight".  
