@@ -217,6 +217,7 @@ Range Arguments of np.arange(), Real Python, available at: https://realpython.co
 Python For Loops, W3Schools, available at: https://www.w3schools.com/python/python_for_loops.asp<br />
 numpy.append, Tutorials Point, available at: https://www.tutorialspoint.com/numpy/numpy_append.htm<br />
 Matplotlib Line, W3Schools, available at: https://www.w3schools.com/python/matplotlib_line.asp<br />
+<br /> 
 
 **Plot Task** <br /> 
 
