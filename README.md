@@ -1,11 +1,14 @@
 # Programming and Scripting Weekly Problems <br />
-## Notes and references for weekly problems
-<br />
+The purpose of this repository is for pushing weekly tasks for the Programing and Scripting module at GMIT. <br />
+
+
+## Notes and references for weekly problems <br />
+Below is a summary and breakdown of each weekly task. Also included are the references used for solving these problems. <br />
 
 # Task 1 - BMI <br />
 **File name:** bmi.py<br />
 
-The program reads in the users height and weight and calculates the users BMI.  <br />
+**Summary:** The program reads in the users height and weight and calculates the users BMI.  <br />
 <br />
 Line 6 reads in the users weight in kilograms, coverts it to a float and saves the data as the variable "weight".  <br />
 <br />
@@ -15,7 +18,7 @@ Line 11 calculates the users BMI using (weight/((height/100)**2)). <br />
 <br />
 Line 15 rounds the float to 2 decimal places. <br />
 <br />
-Finally, line 20 tells the user their BMI. The output formats the float to output along side the string. <br />
+Finally, line 20 tells the user their BMI. The output is a float that has been formatted within a string. <br />
 
 **References**<br />
 Python User Input, W3Schools, available at: https://www.w3schools.com/python/python_user_input.asp<br />
@@ -24,51 +27,58 @@ Python round() Function, W3Schools, available at: https://www.w3schools.com/pyth
 Python String Formatting, W3Schools, available at: https://www.w3schools.com/python/python_string_formatting.asp<br />
 <br />
 <br />
+
+# Task 2 - Second String<br />
+**File name:** secondstring.py<br />
+
+**Summary:** This program reads in a string and outputs it to the user in reverse with every second character present.<br />
 <br />
-
-**# Task 2 - Second String**
-**File name:** secondstring.py
-
-This program reads in a string and outputs it to the user in reverse with every second character present.
-
-Line 6 reads in the string from the user using an input function.  This string is saved as the variable "inputString". 
-
-Line 11 is a function to print every second chartacter of inputString in reverse - [::-2]. Essentially stating there is no beginning, no end (i.e. start and end never defined) and step backwards in 2's. The result is stored under the variable "reverseString".  Function[::-2] was obtained from W3Schools.
-
-Line 15 prints the result of "reverseString". 
+Line 6 reads in the string from the user using an input function.  This string is saved as the variable "inputString". <br />
+<br />
+Line 11 is a function to print every second chartacter of inputString in reverse - [::-2]. Essentially stating there is no beginning, no end (i.e. start and end never defined) and step backwards in 2's. The result is stored under the variable "reverseString".<br />
+<br />
+Line 15 prints the result of "reverseString". <br />
 
 **References**
-Python how to reverse string, W3 Schools, available at: https://www.w3schools.com/python/python_howto_reverse_string.asp.
+Python User Input, W3Schools, available at: https://www.w3schools.com/python/python_user_input.asp<br />
+Python how to reverse string, W3 Schools, available at: https://www.w3schools.com/python/python_howto_reverse_string.asp.<br />
+<br />
+<br />
 
+# Task 3 - Collatz <br />
+**File name:** collatz.py <br />
 
-**# Task 3**
-**File name:** collatz.py
+**Summary:** This program reads in a number from a user and saves it to an empty list. The initial number the user inputs is put through a specific calculation depending on whether it is odd or even. The outcome is added to numbersList. The latest number of the list is then put through the same calculation.  This calculation is an if statement within a loop.  The latest number in the list is put through this calculation until the latest number in the list equals to 1. Finally, the full contents of numbersList is printed. <br />
+<br />
+Line 7 creates an empty list and saves it as a variable 'numbersList'.<br />
+<br />
+Line 10 reads in a number from a user as an integer and saves it under the variable 'number'<br />
+<br />
+Line 11 adds this number to the list, 'numbersList'. <br />
+<br />
+Line 15 creates a loop with a condition that it will run until latest version of 'number' equals to 1. <br />
+<br />
+Line 18 takes the latest number in 'numbersList' if it is an even number. Using an If Statement, it preforms a specific calculation on it when 'number' equals to an even number.<br /> 
+<br />
+Line 21 also takes the latest number in 'numbersList' if it is odd. Using the 'else' function, it preforms a specific calculation on all other numbers i.e. odd numbers. <br />
+<br />
+Line 24 add the new version of 'number' as defined under line 18 or 21 and adds this as the latest number of 'numbersList'. The loop is repeated until the lastest number of 'numberList' equals to 1. <br />
+<br />
+Line 28 prints the contents of 'numbersList' once the latest number equals to 1. <br />
 
-This program reads in a number from a user and saves it to an empty list. The initial number the user inputs, as the first number in the list, is put through a specific calculation depending on whether it is odd or even. This number is then put through the same calculation.  This calculation, as an if statement, is a statement within a loop.  The latest number in the list is put through this calculation until the latest number in the list equals to 1.
+**References**
+Python User Input, W3Schools, available at: https://www.w3schools.com/python/python_user_input.asp<br />
+Python While Loops, W3Schools, available at: https://www.w3schools.com/python/python_while_loops.asp<br />
+Python - Access List Items, W3Schools, available at: https://www.w3schools.com/python/python_lists_access.asp <br />
+Python If ... Else, W3Schools, available at: https://www.w3schools.com/python/python_conditions.asp<br />
+Python List append() Method, W3Schools, available at: https://www.w3schools.com/python/ref_list_append.asp<br />
+<br />
+<br />
 
-Line 7 creates an empty list and saves it as a variable 'numbersList'.
+# Task 4 - Weekday <br />
+**File name:** weekday.py
 
-Line 10 reads in a number from a user as an integer and saves it under the variable 'number'
-
-Line 11 adds this number to the list, 'numbersList'. 
-
-Line 15 creates a loop with a condition that it will run until latest version of 'number' equals to 1. 
-
-Line 18 takes the latest number in 'numbersList'. Using an If Statement, it preforms a specific calculation on it when 'number' equals to an even number. 
-
-Line 21 also takes the latest number in 'numbersList'. Using the 'else' function, it preforms a specific calculation on all other numbers i.e. odd numbers. 
-
-Line 24 add the new version of 'number' as defined under line 18 or 21 and adds this as the latest number of 'numbersList'. The loop is repeated until the lastest number of 'numberList' equals to 1. 
-
-Line 28 prints the contents of 'numbersList' once the latest number equals to 1. 
-
-
-
-
-Week 5
-File name: weekday.py
-
-The program uses a function obtained online to generate todays date and day of the week.  The day of the week is saved in the form of an integer range from [0:6].  We can then use an if statement to output a string based on the whether the day of the week is less than more greater than a certain threshold.  Integer 4, being Friday will be the upper threshold for weekdays. 
+**Summary:** The program uses a function obtained online to generate todays date and day of the week.  The day of the week is saved in the form of an integer range from [0:6].  We can then use an if statement to output a string based on the whether the day of the week is less than more greater than a certain threshold.  Integer 4, being Friday will be the upper threshold for weekdays. 
 
 Line 7 initiates "from datetime import date" function.  This was obtained from https://www.programiz.com/python-programming/datetime/current-datetime. 
 
