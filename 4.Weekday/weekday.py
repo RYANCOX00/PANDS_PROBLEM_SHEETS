@@ -3,12 +3,11 @@
 
 
 # importing the datetime. 
-# Source: https://www.programiz.com/python-programming/datetime/current-datetime
 from datetime import date
 
 
-# Getting todays date from date.today(). This idea obtained from: https://www.programiz.com/python-programming/datetime/current-datetime
-# Also the day of the week returned as an integer by weekday(). This was obtained from: https://pythontic.com/datetime/datetime/weekday
+# Getting todays date from date.today(). See readme for reference. 
+# Also the day of the week returned as an integer by weekday().
 # The current day of the week as an integer saved under weekNum, i.e. Monday = 0,  Tuesday = 1. 
 weekNum = date.today().weekday()
 

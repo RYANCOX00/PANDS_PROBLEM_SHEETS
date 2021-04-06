@@ -1,12 +1,17 @@
+# A program that plots 3 different lines on one line plot. 
+# Each line has similar x values however they have a different equation to solve for y value of each line. 
+# Author: Ryan Cox
+
+
+# Importing numpy and matplotlib. 
 import numpy as np 
 import matplotlib.pyplot as plt
 
-minRange = 0
-maxRange = 4
+minRange = 0 # Defining the minimum parametre
+maxRange = 4 # Defining the maximum parametre
 
-fx = np.arange(minRange,maxRange)   # x value is within the range parametres set above. 
-                                    # np.arange obtained from https://realpython.com/how-to-use-numpy-arange/#range-arguments-of-nparange
-fy = np.array([]) # creating empty array for y value. 
+fx = np.arange(minRange,maxRange)   # creating an array for the x value of f(x) line. Values are the range within the range parametres set above. 
+fy = np.array([]) # creating empty array for y value of f(x) line. 
 
 hx = np.arange(minRange,maxRange)
 hy = np.array([])
@@ -29,11 +34,11 @@ for x in gx: # loop the value of gx ie. the range of x values.
 
 
 # plotting f(x), h(x), and g(x). 
-plt.plot(fx,fy, color='aqua', lw='2', label = 'f(x)') # colors obtianed from https://matplotlib.org/stable/gallery/color/named_colors.html
-plt.plot(hx,hy, color ='darkgreen',lw='4', label = 'h(x)') # lw is linewidth.  label referes to name of the line. 
+plt.plot(fx,fy, color='aqua', lw='2', label = 'f(x)') # ploting the f(x) line with adjusted color and line width.  Name this line 'f(x)'
+plt.plot(hx,hy, color ='darkgreen',lw='4', label = 'h(x)') # similar adjustments made to h(x) line
 plt.plot(gx,gy, color='hotpink', ls = '--', lw='2', label = 'g(x)') # ls is linestyle i.e. broken line. 
-plt.legend() # adding a legend
-plt.title("Different Lines", fontsize=18, weight = "bold")  # adding title to the plot. Weight obtained from https://matplotlib.org/stable/tutorials/text/text_props.html
-plt.xlabel("x Axis", fontsize=12) # labeling 
-plt.ylabel("y Axis", fontsize=12)
-plt.show()  
+plt.legend() # adding a legend to the plot.
+plt.title("Different Lines", fontsize=18, weight = "bold")  # Adding title to the plot with the font size and in bold font. 
+plt.xlabel("x Axis", fontsize=12) # labeling  the x Axis with fontsize 12.
+plt.ylabel("y Axis", fontsize=12) # labeling  the y Axis with fontsize 12.
+plt.show()  # running the plot to show as an image.

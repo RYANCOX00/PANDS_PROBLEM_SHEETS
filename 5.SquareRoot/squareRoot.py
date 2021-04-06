@@ -1,10 +1,6 @@
 # A program that finds the square root of a number using Newtons Method.
 # Author: Ryan Cox
 
-#REF:  https://www.school-for-champions.com/algebra/square_root_approx.htm#.YD2AAmj7RPa
-#REF:  https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
-#REF:  https://www.w3schools.com/python/python_functions.asp
-
 
 # Creating a function squareRoot to be recalled later.
 def squareRoot(squared, root=1000): # Arguement 1 parameter from code below. Arguement 2 parameter set to 1000.
